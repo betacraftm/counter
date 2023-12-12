@@ -45,6 +45,7 @@ body {
   text-align: center;
   border-radius: 20px;
   cursor: pointer;
+  user-select: none;
 }
 
 .container .button .btn:nth-child(1) {
