@@ -1,0 +1,56 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .title {
+  color: orange;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.container .number {
+  font-size: 3rem;
+  padding: 2rem 0rem;
+}
+
+.container .button {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.container .button .btn {
+  border: 2px solid;
+  width: 120px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.container .button .btn:nth-child(1) {
+  border-color: red;
+}
+
+.container .button .btn:nth-child(3) {
+  border-color: blue;
+}
